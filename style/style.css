@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body {
+    font-family: "Fira Sans", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+
+}
+
+/* Nav Section Style  */
+.navbar {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.navbar-logo {
+    color: #0e0e0e;
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.navbar-btn {
+    padding: 15px 30px 15px 30px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+
+}
+
+/* Hero Section Style  */
+.hero {
+    margin: 0 auto;
+    width: 1280px;
+    height: 560px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-subtitle {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.hero-title {
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.hero-btn {
+
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -20px;
+    padding: 17px 34px 17px 34px;
+
+
+}
+
+/* Pillars Of Bangladesh 2.0 Section Style  */
+.bd-sec-title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    
+    
+}
+
+.bd-sec {
+    width: 1280px;
+height: 324px;
+margin: 0 auto  ;
+    
+}
+
+.bd-sec-hole-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 34px;
+    
+}
+
+.bd-sec-box {
+    width: 302px;
+    height: 244px;
+    
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+    padding: 24px;
+}
+
+
+.bd-sec-box-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.bd-sec-box-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
