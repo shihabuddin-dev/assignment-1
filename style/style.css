@@ -14,8 +14,10 @@ body {
 .navbar {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+    max-width: 1280px;
 
 
 }
@@ -25,7 +27,7 @@ body {
 
     font-size: 32px;
     font-weight: 700;
-    line-height: 38px;
+
 }
 
 .navbar-btn {
@@ -33,7 +35,6 @@ body {
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
     color: rgb(0, 106, 80);
-    font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
@@ -43,7 +44,7 @@ body {
 /* Hero Section Style  */
 .hero {
     margin: 0 auto;
-    width: 1280px;
+    max-width: 1280px;
     height: 560px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
@@ -86,48 +87,189 @@ body {
     color: rgb(14, 14, 14);
     font-size: 40px;
     font-weight: 700;
-    
-    
+
+
 }
 
 .bd-sec {
     width: 1280px;
-height: 324px;
-margin: 0 auto  ;
-    
+
+    margin: 0 auto;
+    margin-top: 80px;
+
+
 }
 
-.bd-sec-hole-box {
+.bd-sec-hole-card {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 34px;
-    
+
+
+
 }
 
-.bd-sec-box {
+.bd-sec-card {
     width: 302px;
-    height: 244px;
-    
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-
     background: rgb(255, 255, 255);
     padding: 24px;
 }
 
 
-.bd-sec-box-title {
+.bd-sec-card-title {
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: 700;
-    line-height: 24px;
+
 }
 
-.bd-sec-box-description {
+.bd-sec-card-caption {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
-    font-weight: 400;
+
+
+}
+
+/* The Vision of future style */
+.vision-sec {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.vision-sec-title {
+    margin-top: 80px;
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.vision-sec-caption {
+    color: rgba(14, 14, 14, 0.7);
+    padding-bottom: 20px;
+}
+
+.vision-sec-hole-card {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    gap: 24px;
+    margin: 0 auto;
+
+
+}
+
+.vision-sec-card-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+}
+
+.vision-sec-card-caption {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+
+}
+
+
+.vision-sec-card1 {
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    width: 410.67px;
+    height: 265px;
+    padding: 24px;
+}
+
+
+
+.vision-sec-card2 {
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    width: 410.67px;
+    height: 265px;
+    padding: 24px;
+
+}
+
+.vision-sec-card3 {
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    width: 410.67px;
+    height: 265px;
+    padding: 24px;
+}
+
+.vsb {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+
+    padding: 11px 20px 11px 20px;
+}
+
+.vsb:hover {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px rgb(255, 255, 255);
+    background: rgb(0, 106, 80);
+    padding: 12px 21px 12px 21px;
+    transition: ease-in-out 1s;
+}
+
+.vision-sec-btn1 {
+    background: rgb(84, 144, 245);
+}
+
+.vision-sec-btn2 {
+    background: rgb(9, 161, 92);
+}
+
+.vision-sec-btn3 {
+
+    background: rgb(255, 194, 57);
+
+}
+
+/* Chief Adviser Section Style  */
+.ca-sec {
     
+    margin: 0 auto;
+    max-width: 1280px;
+    background-image: url(../assets/quote-bg.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 32px;
+    padding: 12px;
+
+}
+
+.ca-sec-caption {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    
+}
+
+.ca-sec-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.ca-sec-subtitle {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -20px;
 }
