@@ -481,7 +481,10 @@ td>select {
     border-radius: 16px;
     background: rgb(255, 255, 255);
 }
+.btn2{
+    background: rgb(198, 228, 214);
 
+}
 .donate-sec-btn:hover {
     background: rgb(198, 228, 214);
     transition: ease-in-out 1s;
