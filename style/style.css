@@ -594,7 +594,6 @@ footer {
     text-align: center;
     background: rgb(255, 255, 255);
     margin: 0 auto;
-    height: 170px;
     margin-top: 80px;
     padding: 50px 160px 50px 160px;
 }
@@ -617,4 +616,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 23px;
+}
+hr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
 }
