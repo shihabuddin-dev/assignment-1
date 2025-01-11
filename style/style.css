@@ -124,7 +124,7 @@ body {
 }
 
 .bd-sec-card:hover {
-    box-shadow: 3px 3px 3px  rgb(120, 197, 178);
+    box-shadow: 3px 3px 3px rgb(120, 197, 178);
     transition: ease-in-out 1.5s;
 }
 
@@ -190,7 +190,6 @@ body {
 
 .vision-sec-card2 {
     background: rgb(198, 228, 214);
-
 }
 
 .vision-sec-card3 {
@@ -257,12 +256,14 @@ body {
     background-color: rgb(255, 255, 255);
     margin-top: 32px;
 }
-.ca-sec-content{
+
+.ca-sec-content {
     margin: 48px;
 }
+
 .ca-sec-caption {
     font-size: 16px;
-line-height: 24px;
+    line-height: 24px;
 }
 
 .ca-sec-title {
@@ -454,7 +455,7 @@ td>select {
 .donate-sec-title {
     color: rgb(14, 14, 14);
     font-size: 40px;
-    
+
 }
 
 .donate-sec-title:hover {
@@ -570,11 +571,11 @@ td>select {
 }
 
 .subscribe-btn:hover {
-    
+
     font-size: 19px;
     background: rgba(102, 143, 214, 0.2);
     color: #0e0e0e;
-    transition:  ease-in-out 1.5s;
+    transition: ease-in-out 1.5s;
 }
 
 .subscribe-cap-btn {
