@@ -29,7 +29,8 @@ body {
     font-weight: 700;
 
 }
-.navbar-logo:hover{
+
+.navbar-logo:hover {
     color: red;
     font-size: 32px;
     font-weight: 750;
@@ -47,11 +48,13 @@ body {
     line-height: 22px;
 
 }
-.navbar-btn:hover{
+
+.navbar-btn:hover {
     background: rgb(0, 106, 80);
     color: white;
     transition: ease-in 1.5s;
 }
+
 /* Hero Section Style  */
 .hero {
     margin: 0 auto;
@@ -92,7 +95,8 @@ body {
 
 
 }
-.hero-btn:hover{
+
+.hero-btn:hover {
     background-color: red;
     box-shadow: 3px 3px 3px rgb(20, 20, 20);
     transition: ease-in-out 1s;
@@ -106,6 +110,15 @@ body {
 
 
 }
+
+.bd-sec-title:hover {
+    font-size: 41px;
+    color: rgb(0, 106, 80);
+    transition: ease-in 1.5s;
+
+
+}
+
 
 .bd-sec {
     width: 1280px;
@@ -128,12 +141,21 @@ body {
 
 .bd-sec-card {
     width: 302px;
+    height: 230px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 24px;
 }
 
+.bd-sec-card:hover {
+
+    box-shadow: 5px 5px 5px rgb(131, 153, 147);
+    transition: ease-in-out 1.5s;
+
+
+
+}
 
 .bd-sec-card-title {
     color: rgba(14, 14, 14, 0.8);
@@ -164,6 +186,14 @@ body {
     font-weight: 700;
 }
 
+.vision-sec-title:hover {
+    font-size: 41px;
+    color: rgb(0, 106, 80);
+    transition: ease-in 1.5s;
+
+}
+
+
 .vision-sec-caption {
     color: rgba(14, 14, 14, 0.7);
     padding-bottom: 20px;
@@ -192,31 +222,35 @@ body {
 
 
 .vision-sec-card1 {
-    border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);
-    width: 410.67px;
-    height: 265px;
-    padding: 24px;
 }
-
-
 
 .vision-sec-card2 {
-    border-radius: 16px;
     background: rgb(198, 228, 214);
-    width: 410.67px;
-    height: 265px;
-    padding: 24px;
 
 }
+
 
 .vision-sec-card3 {
-    border-radius: 16px;
     background: rgb(247, 235, 207);
+}
+
+.vsc-card {
+    border-radius: 16px;
+
     width: 410.67px;
     height: 265px;
     padding: 24px;
 }
+
+.vsc-card:hover {
+    background-color: #F5F5F5;
+    font-size: xx-large;
+    box-shadow: 3px 3px 3px rgb(143, 142, 142);
+    transition: ease-in-out 1s;
+
+}
+
 
 .vsb {
     color: rgb(255, 255, 255);
@@ -271,7 +305,15 @@ body {
 
 }
 
+.ca-sec:hover {
+    background: rgb(247, 235, 207);
+    box-shadow: 3px 3px 3px rgb(143, 142, 142);
+    font-style: italic;
+    transition: ease-in-out 1.5s;
+}
+
 .ca-sec-caption {
+    font-size: 42px;
     color: rgba(14, 14, 14, 0.8);
     font-size: 16px;
 
@@ -291,6 +333,30 @@ body {
     margin-top: -20px;
 }
 
+/* Your Opinion Metters  */
+.om-sec {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.om-sec-title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    margin-top: 80px;
+}
+.om-sec-title:hover {
+    font-size: 41px;
+    color: rgb(0, 106, 80);
+    transition: ease-in 1.5s;
+}
+table{
+    border-radius: 16px;
+background: rgb(255, 255, 255);
+width: 1280px;
+height: 409px;
+}
+
+
 /* Recent News Section Style  */
 .news-sec {
     margin: 0 auto;
@@ -300,6 +366,12 @@ body {
 .news-sec-title {
     color: rgb(14, 14, 14);
     font-size: 40px;
+}
+
+.news-sec-title:hover {
+    font-size: 41px;
+    color: rgb(0, 106, 80);
+    transition: ease-in 1.5s;
 }
 
 .news-sec-caption {
@@ -394,6 +466,12 @@ body {
     font-size: 40px;
 }
 
+.donate-sec-title:hover {
+    font-size: 42px;
+    color: red;
+    transition: ease-in 1.5s;
+}
+
 .donate-sec-caption {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
@@ -412,26 +490,18 @@ body {
     background: rgb(255, 255, 255);
 }
 
-.donate-sec-btn2 {
-    color: rgba(14, 14, 14, 0.8);
-    font-size: 40px;
-    font-weight: 700;
-    width: 240px;
-    height: 128px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(198, 228, 214);
-}
+
 
 .donate-sec-btn:hover {
     background: rgb(198, 228, 214);
     transition: ease-in-out 1s;
 }
 
-.donate-sec-btn2:hover {
-    background: rgb(255, 255, 255);
-    transition: ease-in-out 1s;
+.donate-sec-btn:active {
+    background: rgb(12, 83, 50);
+    color: rgb(255, 255, 255);
 }
+
 
 .donate-btn {
     display: flex;
@@ -477,6 +547,12 @@ body {
     font-size: 40px;
 }
 
+.subscribe-sec-title:hover {
+    font-size: 42px;
+    color: rgb(0, 106, 80);
+    transition: ease-in 1.5s;
+}
+
 .subscribe-sec-caption {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
@@ -501,6 +577,7 @@ body {
     font-size: 18px;
     width: 150px;
     height: 56px;
+    margin: none;
     border-radius: 0px 8px 8px 0px;
     border: none;
     background: rgb(0, 106, 80);
@@ -524,12 +601,13 @@ body {
 
 /* Footer secrion Style  */
 footer {
-    
+    text-align: center;
     background: rgb(255, 255, 255);
     margin: 0 auto;
     max-width: 1280px;
     height: 226px;
     margin-top: 80px;
+    padding: 50px 160px 50px 160px;
 }
 
 .footer-title {
@@ -537,12 +615,18 @@ footer {
     font-family: Fira Sans;
     font-size: 32px;
     text-align: center;
-    padding-top: 50px;
+
+}
+
+.footer-title:hover {
+    font-size: 34px;
+    color: rgb(0, 106, 80);
+    transition: ease-in 1.5s;
 }
 
 .social-icon {
-    margin-top: 50px;
+    margin: 32px 0px;
     display: flex;
-    justify-content: space-around;
-    padding-inline: 530px;
+    justify-content: center;
+    gap: 23px;
 }
