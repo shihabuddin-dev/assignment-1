@@ -1,33 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-
 body {
     font-family: "Fira Sans", serif;
     margin: 0;
     padding: 0;
     background-color: #F5F5F5;
-
 }
 
 /* Nav Section Style  */
 .navbar {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     max-width: 1280px;
-
-
 }
 
 .navbar-logo {
     color: #0e0e0e;
-
     font-size: 32px;
     font-weight: 700;
-
 }
 
 .navbar-logo:hover {
@@ -35,7 +27,6 @@ body {
     font-size: 32px;
     font-weight: 750;
     transition: ease-out 2s;
-
 }
 
 .navbar-btn {
@@ -46,7 +37,6 @@ body {
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-
 }
 
 .navbar-btn:hover {
@@ -71,7 +61,6 @@ body {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500;
-
 }
 
 .hero-title {
@@ -82,7 +71,6 @@ body {
 }
 
 .hero-btn {
-
     border-radius: 8px;
     border: none;
     background: rgb(0, 106, 80);
@@ -92,8 +80,6 @@ body {
     font-weight: 600;
     margin-top: -20px;
     padding: 17px 34px 17px 34px;
-
-
 }
 
 .hero-btn:hover {
@@ -107,26 +93,18 @@ body {
     color: rgb(14, 14, 14);
     font-size: 40px;
     font-weight: 700;
-
-
 }
 
 .bd-sec-title:hover {
     font-size: 41px;
     color: rgb(0, 106, 80);
     transition: ease-in 1.5s;
-
-
 }
-
 
 .bd-sec {
     width: 1280px;
-
     margin: 0 auto;
     margin-top: 80px;
-
-
 }
 
 .bd-sec-hole-card {
@@ -134,9 +112,6 @@ body {
     align-items: center;
     justify-content: space-around;
     gap: 34px;
-
-
-
 }
 
 .bd-sec-card {
@@ -149,34 +124,26 @@ body {
 }
 
 .bd-sec-card:hover {
-
     box-shadow: 5px 5px 5px rgb(131, 153, 147);
     transition: ease-in-out 1.5s;
-
-
-
 }
 
 .bd-sec-card-title {
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: 700;
-
 }
 
 .bd-sec-card-caption {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
-
-
 }
 
 /* The Vision of future style */
 .vision-sec {
     max-width: 1280px;
     margin: 0 auto;
-
 }
 
 .vision-sec-title {
@@ -193,7 +160,6 @@ body {
 
 }
 
-
 .vision-sec-caption {
     color: rgba(14, 14, 14, 0.7);
     padding-bottom: 20px;
@@ -205,8 +171,6 @@ body {
     justify-content: center;
     gap: 24px;
     margin: 0 auto;
-
-
 }
 
 .vision-sec-card-title {
@@ -220,7 +184,6 @@ body {
 
 }
 
-
 .vision-sec-card1 {
     background: rgba(84, 144, 245, 0.2);
 }
@@ -230,14 +193,12 @@ body {
 
 }
 
-
 .vision-sec-card3 {
     background: rgb(247, 235, 207);
 }
 
 .vsc-card {
     border-radius: 16px;
-
     width: 410.67px;
     height: 265px;
     padding: 24px;
@@ -248,9 +209,7 @@ body {
     font-size: xx-large;
     box-shadow: 3px 3px 3px rgb(143, 142, 142);
     transition: ease-in-out 1s;
-
 }
-
 
 .vsb {
     color: rgb(255, 255, 255);
@@ -258,7 +217,6 @@ body {
     font-weight: 600;
     border-radius: 8px;
     border: none;
-
     padding: 11px 20px 11px 20px;
 }
 
@@ -284,14 +242,11 @@ body {
 }
 
 .vision-sec-btn3 {
-
     background: rgb(255, 194, 57);
-
 }
 
 /* Chief Adviser Section Style  */
 .ca-sec {
-
     margin: 0 auto;
     max-width: 1280px;
     background-image: url(../assets/quote-bg.png);
@@ -302,7 +257,6 @@ body {
     background-color: rgb(255, 255, 255);
     margin-top: 32px;
     padding: 12px;
-
 }
 
 .ca-sec:hover {
@@ -316,14 +270,12 @@ body {
     font-size: 42px;
     color: rgba(14, 14, 14, 0.8);
     font-size: 16px;
-
 }
 
 .ca-sec-title {
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: 600;
-
 }
 
 .ca-sec-subtitle {
@@ -333,29 +285,73 @@ body {
     margin-top: -20px;
 }
 
-/* Your Opinion Metters  */
-.om-sec {
+/* Your Opinion Matters Style */
+.opinion-sec {
     margin: 0 auto;
     max-width: 1280px;
+    height: 481px;
 }
 
-.om-sec-title {
+.opinion-sec-title {
     color: rgb(14, 14, 14);
     font-size: 40px;
     margin-top: 80px;
 }
-.om-sec-title:hover {
+
+.opinion-sec-title:hover {
     font-size: 41px;
     color: rgb(0, 106, 80);
     transition: ease-in 1.5s;
 }
-table{
+
+.opinion-sec-table {
+    display: flex;
+    width: 1280px;
+    height: 409px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
     border-radius: 16px;
-background: rgb(255, 255, 255);
-width: 1280px;
-height: 409px;
 }
 
+table {
+    width: 1168px;
+    margin: auto auto;
+    border-collapse: collapse;
+}
+
+thead {
+    background: rgb(198, 228, 214);
+    width: 1216px;
+    height: 72px;
+    text-align: justify;
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+}
+
+th {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    gap: 24;
+    padding: 24px;
+}
+
+td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 24px;
+}
+
+td>select {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    padding: 10px 14px 10px 14px;
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 30px;
+}
 
 /* Recent News Section Style  */
 .news-sec {
@@ -410,7 +406,6 @@ height: 409px;
     border-radius: 24px;
     width: 408px;
     height: 306px;
-
 }
 
 .news-sec1-right {
@@ -490,8 +485,6 @@ height: 409px;
     background: rgb(255, 255, 255);
 }
 
-
-
 .donate-sec-btn:hover {
     background: rgb(198, 228, 214);
     transition: ease-in-out 1s;
@@ -501,7 +494,6 @@ height: 409px;
     background: rgb(12, 83, 50);
     color: rgb(255, 255, 255);
 }
-
 
 .donate-btn {
     display: flex;
@@ -531,7 +523,6 @@ height: 409px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     margin: 0 auto;
     max-width: 1280px;
     width: 1280px;
@@ -539,7 +530,6 @@ height: 409px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
     margin-top: 80px;
-
 }
 
 .subscribe-sec-title {
@@ -604,8 +594,7 @@ footer {
     text-align: center;
     background: rgb(255, 255, 255);
     margin: 0 auto;
-    max-width: 1280px;
-    height: 226px;
+    height: 170px;
     margin-top: 80px;
     padding: 50px 160px 50px 160px;
 }
@@ -615,7 +604,6 @@ footer {
     font-family: Fira Sans;
     font-size: 32px;
     text-align: center;
-
 }
 
 .footer-title:hover {
